@@ -6,7 +6,7 @@ set -e
 # Note: The WORKSPACE_ID value is taken from your previous log output.
 WORKSPACE_ID="us-south.workspace.clone-test.f1da6c21"
 # APIKEY is populated via the Code Engine secret binding (e.g., using --env-from-secret)
-APIKEY="$APIKEY"
+APIKEY="$apikey"
 
 # 2. Acquire IAM Access Token using the provided API Key
 # This section handles authentication for IBM Cloud services.
