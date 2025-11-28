@@ -4,7 +4,7 @@ set -e
 # 1. Define variables
 # WORKSPACE_ID should be supplied as an environment variable by the job runner
 # Note: The WORKSPACE_ID value is taken from your previous log output.
-WORKSPACE_ID="us-south.workspace.clone-test.f1da6c21"
+WORKSPACE_ID="us-south.workspace.clone-test.8c45db95"
 # APIKEY is populated via the Code Engine secret binding (e.g., using --env-from-secret)
 APIKEY="$apikey"
 
